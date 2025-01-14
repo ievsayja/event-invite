@@ -1,0 +1,72 @@
+body {
+        font-family: "Permanent Marker", fantasy;
+        background-color: white;
+            }
+            
+            .container {
+                max-width: 600px;
+                margin: 50px auto;
+                padding: 20px;
+                border: 3px solid rgb(245, 98, 123);
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                background: linear-gradient(to right, rgb(237, 218, 224), rgb(235, 127, 158));
+                color: rgb(235, 65, 80);
+            }
+             
+             .header {
+                font-family: "Stencil Std", fantasy;
+                font-size: 1em; 
+                letter-spacing: 1px;
+                color: white;
+                text-shadow:
+                -1px -1px 0 rgb(245, 46, 73),1px -1px 0 rgb(245, 46, 73),-1px 1px 0 rgb(245, 46, 73),1px 1px 0 rgb(245, 46, 73);
+                margin-bottom: 40px; /* Space between header and content */
+            }
+             
+             
+            #ggbread-pic {
+                float: right;
+                margin-left: 5px; /* Space between image and text */
+                max-width: 190px;
+                border: 4px ridge red;
+                border-radius: 10px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+            }
+             
+            
+            .clearfix::after {
+            content: "";
+            display: block;
+            clear: both; 
+            }
+            
+            h3, .activities {
+                color: rgb(245, 46, 73);
+            }
+            
+            li {
+                margin: 10px;
+            }
+            
+            .rsvp-button {
+                background-color: rgb(240, 135,189);
+                color: rgb(247, 242, 246);
+                border: 2px solid rgb(212, 91, 180);
+                font-size: 16px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                
+            }
+            
+            .rsvp-button:hover {
+                background-color: rgb(212, 91, 180);
+                color: white;
+                border-color: rgb(240, 135, 189);
+            }
+            
+            .button-container {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
